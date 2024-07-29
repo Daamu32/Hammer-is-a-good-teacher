@@ -1,0 +1,17 @@
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\PruebaDepuraciónDiscord.exe
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\PruebaDepuraciónDiscord.deps.json
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\PruebaDepuraciónDiscord.runtimeconfig.json
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\PruebaDepuraciónDiscord.dll
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\PruebaDepuraciónDiscord.pdb
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\Newtonsoft.Json.dll
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.csproj.AssemblyReference.cache
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.AssemblyInfoInputs.cache
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.AssemblyInfo.cs
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.csproj.CoreCompileInputs.cache
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDe.15E34890.Up2Date
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.dll
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\refint\PruebaDepuraciónDiscord.dll
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.pdb
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\PruebaDepuraciónDiscord.genruntimeconfig.cache
+C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\obj\Release\net8.0\win-x64\ref\PruebaDepuraciónDiscord.dll
