@@ -38,7 +38,7 @@ public static class Utils
         }
         return directory;
     }
-
+    
     internal static string ReadConfig()
     {
         string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");

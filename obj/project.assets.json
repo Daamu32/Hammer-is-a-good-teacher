@@ -55,24 +55,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chusi\\.nuget\\packages\\": {}
+    "C:\\Users\\arman\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chusi\\OneDrive\\Documentos\\PruebaDepuraciónDiscord\\PruebaDepuraciónDiscord.csproj",
+      "projectUniqueName": "C:\\Users\\arman\\Desktop\\Fun_Projects\\RemoveLogs\\PruebaDepuraciónDiscord.csproj",
       "projectName": "PruebaDepuraciónDiscord",
-      "projectPath": "C:\\Users\\chusi\\OneDrive\\Documentos\\PruebaDepuraciónDiscord\\PruebaDepuraciónDiscord.csproj",
-      "packagesPath": "C:\\Users\\chusi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chusi\\OneDrive\\Documentos\\PruebaDepuraciónDiscord\\obj\\",
+      "projectPath": "C:\\Users\\arman\\Desktop\\Fun_Projects\\RemoveLogs\\PruebaDepuraciónDiscord.csproj",
+      "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arman\\Desktop\\Fun_Projects\\RemoveLogs\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\chusi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -85,11 +92,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -117,7 +119,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,13 @@
+
+.idea/.idea.PruebaDepuraciónDiscord/.idea/.name
+/.idea/.idea.PruebaDepuraciónDiscord/.idea
+/bin
+/bin/Debug/net8.0
+obj/rider.project.restore.info
+obj/PruebaDepuraciónDiscord.csproj.nuget.g.props
+/obj/Debug/net8.0
+bin/Debug/net8.0/config.json
+*.pdb
+*.exe
+*.cache
+*.dll
