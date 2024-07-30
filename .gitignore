@@ -12,3 +12,5 @@ bin/Debug/net8.0/config.json
 *.exe
 *.cache
 *.dll
+
+.vscode/
