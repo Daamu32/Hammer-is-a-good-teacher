@@ -5,40 +5,67 @@ namespace PruebaDepuraciónDiscord;
 public static class Utils
 {
     internal static string GetDirectoryPathFromUser()
-    {
-        var directory = ReadConfig();
+{
+    var directory = ReadConfig();
+    string logFilePath = Directory.GetCurrentDirectory() + "\\RemoveLogs.log";
 
+    try
+    {
         if (!string.IsNullOrEmpty(directory) && Directory.Exists(directory))
         {
             Console.WriteLine($"Using previously used directory: {directory}");
             Console.WriteLine("Do you want to use this directory? (Y/N):");
-            label1:
-            switch (Console.ReadKey().Key)
+
+            while (true)
             {
-                case ConsoleKey.Y: break;
-                case ConsoleKey.N:
-                    Console.WriteLine("Please enter the directory path or enter '1' for the Downloads directory:");
-                    var input = Console.ReadLine();
-                    if (input == "1")
-                    {
-                        directory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
-                            "Downloads");
-                        Console.WriteLine($"Using Downloads directory: {directory}");
-                    }
-                    else
-                    {
-                        directory = input ?? throw new NullReferenceException("Directory was null, please check config or input");
-                    }
-                    WriteConfig(directory);
-                    break;
-                default:
-                    Console.WriteLine("Incorrect input. Please press Y or N");
-                    goto label1;
+                var key = Console.ReadKey(true).Key;
+
+                if (key == ConsoleKey.Y)
+                {
+                    return directory;
+                }
+                else if (key == ConsoleKey.N)
+                {
+                    break; // Exit the loop and ask for a new entry
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect input. Please press Y or N:");
+                }
             }
         }
+
+         // Requests a new directory if the old one is not used or does not exist.
+        Console.WriteLine("Please enter the directory path or enter '1' for the Downloads directory:");
+        var input = Console.ReadLine();
+
+        if (input == "1")
+        {
+            directory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads");
+            Console.WriteLine($"Using Downloads directory: {directory}");
+        }
+        else
+        {
+            directory = input;
+        }
+
+        if (!Directory.Exists(directory))
+        {
+            Console.WriteLine($"The specified directory does not exist.Entered:{directory}");
+            Logger.LogMessage(logFilePath, $"Invalid directory entered: {directory}");
+            return GetDirectoryPathFromUser(); // Calls the function again to request a new entry
+        }
+
+        WriteConfig(directory);
         return directory;
     }
-    
+    catch (Exception ex)
+    {
+        Logger.LogMessage(logFilePath, $"Exception: {ex.Message}"); //error log is created in the main project folder
+        throw; 
+    }
+}
+
     internal static string ReadConfig()
     {
         string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json");

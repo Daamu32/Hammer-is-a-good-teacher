@@ -15,8 +15,6 @@ namespace PruebaDepuraciónDiscord
                 return;
             }
 
-            //string logFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
-            //    "OneDrive", "Escritorio", "test.log");
             string logFilePath = Directory.GetCurrentDirectory() + "\\RemoveLogs.log";
             Utils.EnsureLogFileExists(logFilePath);
 

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KtR6Of/nLYtnjPffV0YQ3LvUEix7a3L32s7YtxsIPrABq7YznE7XWwnLcTTkneE+lWBqBocr6L9ErwcCGKf6TA==",
+  "dgSpecHash": "olUZA+SO3ME=",
   "success": true,
-  "projectFilePath": "C:\\Users\\arman\\Desktop\\Fun_Projects\\RemoveLogs\\PruebaDepuraciónDiscord.csproj",
+  "projectFilePath": "C:\\Users\\chusi\\OneDrive\\Documentos\\PruebaDepuraciónDiscordv.0.0.2\\Hammer-is-a-good-teacher\\PruebaDepuraciónDiscord.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\arman\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\chusi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
