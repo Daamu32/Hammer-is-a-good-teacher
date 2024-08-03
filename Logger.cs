@@ -8,7 +8,7 @@ public static class Logger
         {
             using (StreamWriter writer = new StreamWriter(logFilePath, true))
             {
-                writer.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
+                writer.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] - {message}");
                 Console.WriteLine(message);
             }
         }

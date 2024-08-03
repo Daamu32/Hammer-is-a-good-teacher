@@ -1,6 +1,0 @@
-C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\publish\PruebaDepuraciónDiscord.exe
-C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\publish\PruebaDepuraciónDiscord.dll
-C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\publish\PruebaDepuraciónDiscord.deps.json
-C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\publish\PruebaDepuraciónDiscord.runtimeconfig.json
-C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\publish\PruebaDepuraciónDiscord.pdb
-C:\Users\chusi\OneDrive\Documentos\PruebaDepuraciónDiscord\bin\Release\net8.0\win-x64\publish\Newtonsoft.Json.dll
