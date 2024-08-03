@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaDepuraciónDiscord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee2375ca425b691a4efe29aa30bce61b73b4b46f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43cc5df31c68c8d2467420b6f491f9f9866e632a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaDepuraciónDiscord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaDepuraciónDiscord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
