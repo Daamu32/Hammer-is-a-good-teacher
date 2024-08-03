@@ -29,10 +29,19 @@ x64/
 x86/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
+<<<<<<< HEAD
 bin/
 obj/
 [Ll]og/
 [Ll]ogs/
+=======
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+>>>>>>> 60bf7f33bfbc7514e5d8f5594d7a709d8c0a62e2
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
@@ -378,4 +387,9 @@ $RECYCLE.BIN/
 *.msp
 
 # Windows shortcuts
+<<<<<<< HEAD
 *.lnk
+=======
+*.lnk
+
+>>>>>>> 60bf7f33bfbc7514e5d8f5594d7a709d8c0a62e2
